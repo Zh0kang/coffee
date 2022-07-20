@@ -1,0 +1,67 @@
+.van-tree-select__content{
+    .describebox{
+        width: 100%;
+        padding:10px;
+        box-sizing: border-box;
+        display: flex;
+        margin: 10px 0;
+        background-image: linear-gradient(141deg,#d4dbd8 0%,#94c2c7 51%,#98c9db 75%);
+
+        .imgbox{
+            max-width:100px;
+            position: relative;
+            img{
+                width:100%;
+                display: block;
+            }
+
+            span{
+                position: absolute;
+                top: 0;
+                left: 0;
+                color:white;
+                background-color: #0000ff;
+                padding:5px;
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
+            }
+        }
+    }
+    .introducebox{
+        width: calc(100% - 100px);
+        margin-left: 5px;
+        overflow: hidden;
+        font-size: 16px;
+        font-weight:bold;
+        text-align: left;
+        position: relative;
+
+        .ennamebox{
+            margin-top: 10px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+
+            span{
+                color:white;
+                font-size: 12px;
+            }
+        }
+    }
+
+    .pricebox{
+        position: absolute;
+        bottom:0;
+
+        .pricecolor{
+            color:#0000ff;
+        }
+    }
+    
+}
+.tiji{
+    display: flex;
+    
+}

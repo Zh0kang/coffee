@@ -1,0 +1,117 @@
+.homepage{
+    width: 100%;
+    background-color: rgb(240, 238,236);
+    padding-bottom: 40px;
+    box-sizing: border-box;
+
+    .van-search{
+        padding: 0;
+    }   
+
+    .item_box{
+        font-weight: bold;
+        .username{
+            color: rgb(65, 65, 211);
+            margin-left: 5px;
+        }
+    }
+
+    .concentbox{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+
+        .bannerbox{
+            width: 100%;
+        }
+    }
+
+    .van-swipe{
+        width: 100%;
+        border-radius: 10px;
+
+        .van-swipe-item{
+            width: 100%;
+
+            >img{
+                width: 100%;
+            }
+        }
+    }
+    .hotconcent{
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .hot{
+        margin-top: -3px;
+        text-align: left;
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+        span{
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            background-color: #1a73e8;
+            padding: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    }
+
+    .hot_box{
+        width: 43%;
+        padding: 10px;
+        background-color: white;
+        border-radius: 10px;
+        text-align: left;
+
+        .hotimg{
+            width:100%;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            >img{
+                width: 100%;
+                display: block;
+            }
+
+            span{
+                position: absolute;
+                top: 0;
+                left: 18px;
+                font-size: 14px;
+                color: white;
+                background-color:#166ee0;
+                padding: 5px;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+        }
+
+        p{
+            width: 100%;
+            font-size: 16px;
+            min-height: 20px;
+            line-height: 20px;
+            font-weight: bold;
+            margin: 0;
+            //溢出隐藏
+            overflow: hidden;
+            //文本限定为一行
+            white-space: nowrap;
+        }
+        
+        .hotname{
+            margin:10px 0;
+        }
+        .enname{
+            margin-bottom: 5px;
+            color: #bbc2cc;
+        }
+    }
+}
